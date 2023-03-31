@@ -67,6 +67,36 @@ header nav li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero h4 {
+    margin: 30px 0 15px 0;
+    font-size: 110%;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hero h1 {
+    text-shadow: 1px 1px 1px black;
+    font-size: 320%;
+    font-weight: bold;
+
+}
+
+.hero>div>div button:first-child {
+    background-color: gray;
+    border: solid 1px black;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.hero>div>div button:last-child {
+    background-color: transparent;
+    border: solid 1px lightblue;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
 }
 
 /* Final hero */
