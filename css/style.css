@@ -48,3 +48,17 @@ header nav li {
 
 
 /* Final header */
+
+/* Inicio hero*/
+
+.hero {
+    background-color: #585858;
+    background-image: url(../img/fondo.jpeg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+}
+
+/* Final hero */
