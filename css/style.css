@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+/* layout */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 1004px;
+    margin: 0 auto;
+}
+
+/* Inicio header */
+
+header {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+header figure {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header .container:after {
+    content: "";
+    height: 0px;
+    clear: both;
+    display: block;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+/* Final header */
