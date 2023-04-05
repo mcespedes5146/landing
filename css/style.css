@@ -105,3 +105,36 @@ header a {
 }
 
 /* Final hero */
+
+/* Inicio Section */
+
+main {
+    background-color: whitesmoke;
+
+}
+
+main section {
+    width: 1004px;
+    margin: -60px auto 0;
+    background-color: white;
+    padding: 15px;
+    border-top: 4px solid gold;
+    position: relative;
+    /* display-flex para que se ponga en horizontal */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section article {
+    width: 33.333%;
+}
+
+img {
+    /* las imagenes deben adaptarse al 100% del elemento que lo contiene, asi nunca sobrepasar su contenedor */
+    width: 100%;
+    /* para que no la deforme las imagenes */
+    height: auto;
+}
+
+
+/* Final Section */
