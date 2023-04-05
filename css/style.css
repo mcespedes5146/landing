@@ -136,5 +136,14 @@ img {
     height: auto;
 }
 
+main section h3 {
+    margin-bottom: 10px;
+}
+
+main article h3 span {
+    color: blue;
+    font-weight: bold;
+}
+
 
 /* Final Section */
