@@ -145,5 +145,14 @@ main article h3 span {
     font-weight: bold;
 }
 
-
 /* Final Section */
+/* Inicio Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Final Footer */
